@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Costa Rica Tarrazu",
+        "country": "Costa Rica",
+        "type": "Arabica",
+        "roast": "Medium",
+        "flavors": [
+            "Citrusy",
+            "Chocolatey"
+        ],
+        "imageAssetUrl": "assets/images/costa_rica_tarazu.png",
+        "recipe": "To make a delicious cup of Costa Rica Tarrazu coffee, start by grinding 2 tablespoons of beans to a medium grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
+    },
+    {
+        "name": "Jamaican Blue Mountain",
+        "country": "Jamaica",
+        "type": "Arabica",
+        "roast": "Light",
+        "flavors": [
+            "Smooth",
+            "Sweet"
+        ],
+        "imageAssetUrl": "assets/images/jamaican_blue_mountain.png",
+        "recipe": "To make a delicious cup of Jamaican Blue Mountain coffee, start by grinding 2 tablespoons of beans to a light grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
+    },
+    {
+        "name": "Hawaiian Kona",
+        "country": "Hawaii",
+        "type": "Arabica",
+        "roast": "Light",
+        "flavors": [
+            "Fruity",
+            "Floral"
+        ],
+        "imageAssetUrl": "assets/images/hawaiian_kona.png",
+        "recipe": "To make a delicious cup of Hawaiian Kona coffee, start by grinding 2 tablespoons of beans to a light grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
+    },
+    {
+        "name": "Indian Monsooned Malabar",
+        "country": "India",
+        "type": "Robusta",
+        "roast": "Medium",
+        "flavors": [
+            "Earthy",
+            "Spicy"
+        ],
+        "imageAssetUrl": "assets/images/indian_monsooned_malabar.png",
+        "recipe": "To make a delicious cup of Indian Monsooned Malabar coffee, start by grinding 2 tablespoons of beans to a medium grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
+    },
+    {
+        "name": "Panama Geisha",
+        "country": "Panama",
+        "type": "Arabica",
+        "roast": "Light",
+        "flavors": [
+            "Floral",
+            "Fruity"
+        ],
+        "imageAssetUrl": "assets/images/panama_geisha.png",
+        "recipe": "To make a delicious cup of Panama Geisha coffee, start by grinding 2 tablespoons of beans to a light grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug"
+    }
+]
