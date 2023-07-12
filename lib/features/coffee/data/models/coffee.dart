@@ -7,6 +7,7 @@ part 'coffee.g.dart';
 @JsonSerializable()
 class CoffeeModel {
   const CoffeeModel(
+    this.id,
     this.name,
     this.country,
     this.type,
@@ -19,6 +20,7 @@ class CoffeeModel {
   factory CoffeeModel.fromJson(Map<String, dynamic> json) => _$CoffeeModelFromJson(json);
 
   factory CoffeeModel.fromEntity(Coffee coffee) => CoffeeModel(
+        coffee.id,
         coffee.name,
         coffee.country,
         coffee.type,
@@ -28,6 +30,7 @@ class CoffeeModel {
         coffee.imageAssetUrl,
       );
 
+  final int id;
   final String name;
   final String country;
   final String type;
@@ -35,4 +38,6 @@ class CoffeeModel {
   final List<String> flavors;
   final String recipe;
   final String imageAssetUrl;
+
+  Map<String, dynamic> toJson() => _$CoffeeModelToJson(this);
 }

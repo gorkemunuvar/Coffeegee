@@ -5,9 +5,10 @@ import '../screens/coffee_details_screen.dart';
 import 'coffee_card.dart';
 
 class CoffeeListView extends StatelessWidget {
-  const CoffeeListView(this.coffees, {super.key});
+  const CoffeeListView(this.coffees, {this.showFavoriteButton = true, super.key});
 
   final List<Coffee> coffees;
+  final bool showFavoriteButton;
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +17,7 @@ class CoffeeListView extends StatelessWidget {
       itemBuilder: (context, i) => CoffeeCard(
         coffee: coffees[i],
         onTap: () => _onTap(context, coffees[i]),
+        showFavoriteButton: showFavoriteButton,
       ),
     );
   }

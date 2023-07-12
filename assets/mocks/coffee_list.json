@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Costa Rica Tarrazu",
         "country": "Costa Rica",
         "type": "Arabica",
@@ -12,6 +13,7 @@
         "recipe": "To make a delicious cup of Costa Rica Tarrazu coffee, start by grinding 2 tablespoons of beans to a medium grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
     },
     {
+        "id": 2,
         "name": "Jamaican Blue Mountain",
         "country": "Jamaica",
         "type": "Arabica",
@@ -24,6 +26,7 @@
         "recipe": "To make a delicious cup of Jamaican Blue Mountain coffee, start by grinding 2 tablespoons of beans to a light grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
     },
     {
+        "id": 3,
         "name": "Hawaiian Kona",
         "country": "Hawaii",
         "type": "Arabica",
@@ -36,6 +39,7 @@
         "recipe": "To make a delicious cup of Hawaiian Kona coffee, start by grinding 2 tablespoons of beans to a light grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
     },
     {
+        "id": 4,
         "name": "Indian Monsooned Malabar",
         "country": "India",
         "type": "Robusta",
@@ -48,6 +52,7 @@
         "recipe": "To make a delicious cup of Indian Monsooned Malabar coffee, start by grinding 2 tablespoons of beans to a medium grind. Place the grounds into a coffee filter in your drip coffee maker. Add 6 cups of water to the water reservoir and turn on the machine. Once the coffee is brewed, pour it into your favorite mug and enjoy!"
     },
     {
+        "id": 5,
         "name": "Panama Geisha",
         "country": "Panama",
         "type": "Arabica",

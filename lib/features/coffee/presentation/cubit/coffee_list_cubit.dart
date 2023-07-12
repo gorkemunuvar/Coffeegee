@@ -1,3 +1,4 @@
+import 'package:cofeegee/core/logger/logger.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
@@ -14,11 +15,7 @@ class CoffeeListCubit extends Cubit<CoffeeListState> {
 
   final GetCoffeeList _getCoffeeList;
 
-  Future<void> init() async {
-    await _fetchCoffees();
-  }
-
-  Future<void> _fetchCoffees() async {
+  Future<void> fetchCoffees() async {
     emit(const CoffeeListState.loading());
 
     final failureOrCoffees = await _getCoffeeList();

@@ -7,6 +7,7 @@ part of 'coffee.dart';
 // **************************************************************************
 
 CoffeeModel _$CoffeeModelFromJson(Map<String, dynamic> json) => CoffeeModel(
+      json['id'] as int,
       json['name'] as String,
       json['country'] as String,
       json['type'] as String,
@@ -18,6 +19,7 @@ CoffeeModel _$CoffeeModelFromJson(Map<String, dynamic> json) => CoffeeModel(
 
 Map<String, dynamic> _$CoffeeModelToJson(CoffeeModel instance) =>
     <String, dynamic>{
+      'id': instance.id,
       'name': instance.name,
       'country': instance.country,
       'type': instance.type,
